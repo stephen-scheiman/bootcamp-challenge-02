@@ -80,14 +80,15 @@ header div ul li {
   margin-left: 20px;
 }
 
-.services-text img {
+.services img {
   max-height: 200px;
 }
 
-.services-text h2 {
+.services h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
 .benefits {
   margin-right: 20px;
   padding: 20px;
