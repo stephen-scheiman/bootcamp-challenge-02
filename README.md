@@ -22,10 +22,10 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 
 ## Borrowed Code
-The code to create alt text for a css image came from Stack Overflow
+The code to create alt text for a css embedded image came from Stack Overflow
 
 ## Screenshot
-Placeholder while I figure this out
+https://github.com/stephen-scheiman/bootcamp-challenge-02/blob/main/image.png
 
 ## Pages URL
 https://stephen-scheiman.github.io/bootcamp-challenge-02/
