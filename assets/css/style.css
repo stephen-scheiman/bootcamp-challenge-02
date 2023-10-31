@@ -1,48 +1,49 @@
+/* Set content box attributes, no padding, no margin, single font family for the entire page */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
+/* Set the background of the page body to a grey toned color*/
 body {
   background-color: #d9dcd6;
 }
-
+/* Set all anchors to plain white*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* Create a blue-green header with white text*/
 header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* h1 displayed in-line with a font size of 48 pixels*/
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Change the color of the letters "seo" in the word Horiseon to match the body background color */
 header h1 .seo {
   color: #d9dcd6;
 }
-
+/* Change the font and size of the header links*/
 header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* Align the list header links to the right side of the header*/
 header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* Format the main image of the page*/
 .hero {
   height: 800px;
   width: 100%;
@@ -51,7 +52,6 @@ header div ul li {
   background-size: cover;
   background-position: center;
 }
-
 /* Include the image from the above class on the page but hidden, for screen readers to find the alt text */
 .sr-only {
   position: absolute;
@@ -63,32 +63,40 @@ header div ul li {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
+/* Defines the position of images in the Services Section*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* Defines the position of images in the Services Section*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/* Defines the content box size and behavior for the Services Section*/
 .services {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/*Defines the type setting for the Services Section */
+.services-text {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* Defines the height of images in the Services Section*/
 .services img {
   max-height: 200px;
 }
-
+/* Sets the font size of h2 in the Services Section*/
 .services h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* Defines the content box size and attributes for the Benefits Section*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -96,43 +104,31 @@ header div ul li {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/*Defines the type setting for the Services Section */
 .benefits-text {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/* Centers the h3 in the Services Section*/
 .benefits-text h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* Sets the display properties of the iconography in the Benefits Section*/
 .benefits-text img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-
-.services-text {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
+/*Center the footer clear of previous content boxes */
 footer {
   padding: 30px;
   clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
-footer h2 {
+/*Change to h4 for accessibility but override the font size for display */
+footer h4 {
   font-size: 20px;
 }
